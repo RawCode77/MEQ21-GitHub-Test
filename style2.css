@@ -1,0 +1,176 @@
+.flexbox-container {
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price strong {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.flexbox-item {
+
+    padding:20px;
+    text-align: left;
+    height: 260px;
+    width:300px;
+    margin: 1px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+
+}
+.flexbox-item-2 {
+    min-height: 100px;
+}
+.flexbox-item-3 {
+    min-height: 100px;
+}
+.arrow {
+    margin-left: 5px;
+}
+
+
+h1 {
+    border-bottom: 0px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    margin: auto;
+    color: black;
+    background-color: rgb(249, 247, 247);
+    text-align: center; /* center the h1 heading */
+    width: 1040px;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .text{
+    padding-bottom: 13px;
+    padding-top: 13px;
+  }
+  
+  h2 {
+    margin: auto;
+    color: white;
+    text-align: center; /* center the h2 heading */
+    background-color: black;
+    width: 1005px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  h2  {
+    margin-bottom: 15px;
+  }
+  h2.pointer {
+    cursor: pointer;
+  }
+  h2:hover {
+    background-color: rgb(37, 37, 37);
+  }
+
+  p {
+    line-height: 1.8;
+    text-indent: 0px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+ /* p.a { 
+    word-spacing: 10px;
+  }*/
+ ul {
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+ .myBox-container {
+    display: flex;
+    width: 200px; /* Adjust the width as needed */
+    justify-content: space-between; /* align boxes with equal spacing */
+    height: 25px;
+  }
+  
+  .myBox-box1 {
+    background-color: black;
+    width: 25px; /* Adjust the width as needed */
+    
+  }
+  
+  .myBox-box2 {
+    background-color: rgb(34, 73, 246);
+    width: 25px; /* Adjust the width as needed */
+  }
+  
+  .myBox-box3 {
+    background-color: rgb(220, 6, 6);
+    width: 25px; /* Adjust the width as needed */
+  }
+  
+  .myBox-box4 {
+    background-color: rgb(246, 176, 53);
+    width: 25px; /* Adjust the width as needed */
+  }
+
+  .myBox-box5 {
+    background-color: rgb(32, 175, 41);
+    width: 25px; /* Adjust the width as needed */
+  }
+
+  .myBox-box6 {
+    background-color: rgb(124, 72, 31);
+    width: 25px; /* Adjust the width as needed */
+  }
+  .text-container {
+    position: relative;
+    height: 52px; /* adjust as needed */
+    width: 99.25%;
+    background-color: white;
+    border: 3px solid white;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+  
+  .sale-box {
+    position: absolute;
+    top: -10px; /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid black;
+  }
+
+  
+
+  .flexbox-item-1 .sneakers img{
+    width: 340px;
+    height: 303px;
+    position:relative;
+    transform: translate(-5.9%, -7%);
+
+
+ }
+
+ 
+  
+
+  
+  
+  
